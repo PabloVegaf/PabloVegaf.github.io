@@ -1,0 +1,105 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fotoperfil {
+    border-radius: 15px;
+}
+
+.indice {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.link_indice {
+    text-decoration: none;
+    color: white;
+}
+
+.link_indice:hover {
+    font-size: 20px;
+    color: black;
+}
+
+.indice li {
+    display: inline-block;
+    /* Muestra los elementos de la lista en línea */
+    width: 15%;
+}
+
+.contacto {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #B172FB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.encuesta {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #B172FB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.formacion,
+.habilidades,
+.experiencia,
+.sobre_mi {
+    width: 45%;
+    margin: 20px;
+    background-color: #B172FB;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formacion,
+.experiencia {
+    flex: 1;
+}
+
+.sobre_mi,
+.habilidades {
+    flex: 1;
+}
+
+.columna1,
+.columna2 {
+    flex: 1;
+}
+
+.formacion,
+.habilidades,
+.experiencia,
+.contacto {
+    display: inline-block;
+    vertical-align: top;
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+}
+
+.preguntas{
+    display: flex;
+    justify-content: space-between;
+}
+.columna1, .columna2{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+}
