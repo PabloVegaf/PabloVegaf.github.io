@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  font-size: large;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #2d2d2d;
+  height: 100%;
+}
+#barra-navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 25px;
+  padding-right: 25px;
+  border-bottom: 1px solid black;
+}
+#barra-navegacion a {
+  color: #679cd5;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40px;
+  height: 100%;
+  justify-content: end;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+#cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: arial;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+#verCookies{
+  text-decoration: none;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+#enlaces {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.menu-lateral img {
+  height: 40px;
+  width: auto;
+}
+footer img {
+  height: 40px;
+  width: auto;
+}
+#fotoPerfil {
+  width: 150px;
+  position: relative;
+  left: 10%;
+  top: 50px;
+}
+#central {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+#central img {
+  margin-right: 20px;
+}
+.textos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textos img {
+  height: 60px;
+  width: auto;
+}
+
+.imagenTexto {
+  width: 25px !important; /*Important para que .textos img no pise el tamaño de las imagenes*/
+  height: 25px !important;
+  margin-right: 0 !important;
+}
+
+
+@media screen and (max-width: 600px) {
+  #barra-navegacion {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    gap: 15px;
+  }
+
+  #fotoPerfil {
+    position: relative;
+    left: 35%;
+    top: 20px;
+    margin: 0 auto;
+  }
+
+  #central {
+    width: 90%;
+    padding-top: 30px;
+  }
+
+  .textos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textos img {
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: 50px;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+
+  #central img {
+    margin-right: 0;
+  }
+
+  #central p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  #enlaces {
+    gap: 15px;
+  }
+}
