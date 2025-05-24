@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: right;
+  align-items: center; /* For vertical alignment */
   gap: 25px;
   padding-right: 25px;
   border-bottom: 1px solid black;
@@ -161,4 +162,68 @@ footer img {
   #enlaces {
     gap: 15px;
   }
+}
+
+/* Language Switch Styles */
+.language-switch {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.lang-label {
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #679cd5; /* Match existing link color */
+}
+
+.lang-label.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px; /* Adjust size */
+  height: 24px; /* Adjust size */
+  margin: 0 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px; /* Match height */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px; /* Adjust size */
+  width: 18px; /* Adjust size */
+  left: 3px; /* Adjust position */
+  bottom: 3px; /* Adjust position */
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px); /* Adjust distance based on width */
 }

@@ -10,8 +10,15 @@
     <header>
 
       <nav id="barra-navegacion">
+        <div class="language-switch">
+          <span class="lang-label lang-es active">ES</span>
+          <label class="switch">
+            <input type="checkbox" id="langToggle">
+            <span class="slider round"></span>
+          </label>
+          <span class="lang-label lang-en">EN</span>
+        </div>
         <a href="Principal.html">Inicio</a>
-        <a href="Proyectos.html">Proyectos</a>
       </nav>
     </header>
 
@@ -29,7 +36,7 @@
         </div>
         <div class="textos" id="estudios">
           <img src="Imagenes/book-solid.svg" alt="Icono libro">
-          <p>
+          <p id="estudiosContenido">
             Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz,
             donde adquirí conocimientos en sistemas operativos, software de
             ofimática, administración de sistemas y gestión de redes informáticas.
@@ -68,15 +75,15 @@
             
             <li><b>Bases de datos:</b> OracleSQL, MariaDB, MySQL</li>
             
-            <li>
+            <li id="interesesItem">
               <b>Intereses:</b> Desarrollo front-end e Inteligencia Artificial
             </li>
             
-            <li>
+            <li id="herramientasItem">
               <b>Herramientas:</b> VS Code, GitHub, Linux, phpMyAdmin, Postman
             </li>
             
-            <li>
+            <li id="iaItem">
               <b>Inteligencia Artifical:</b> Experimentación con IA open-source
               localmente, utilizando herramientas como Pinokio, Ollama, ComfyUI,
               entre otros.
@@ -107,8 +114,8 @@
       </div>
     </main>
     <div id="cookies">
-      <h2>¿Aceptas nuestras Cookies?</h2>
-      <p>Usamos cookies para mejorar tu experiencia en nuestra web.</p>
+      <h2 id="cookiesTitulo">¿Aceptas nuestras Cookies?</h2>
+      <p id="cookiesMensaje">Usamos cookies para mejorar tu experiencia en nuestra web.</p>
       <div>
         <button class="boton" id="aceptar">Aceptar</button>
         <button class="boton"><a href="cookies.html" target="_blank" id="verCookies">Ver página de cookies</a> </button>
@@ -133,7 +140,7 @@
           ></a>
         </div>
       </div>
-      <p>©2025-Pablo Vega. Todos los derechos reservados</p>
+      <p id="footerCopyright">©2025-Pablo Vega. Todos los derechos reservados</p>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
