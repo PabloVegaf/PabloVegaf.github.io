@@ -6,8 +6,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: #2d2d2d;
+  background-image: url('../Imagenes/gradii-1920x1080.png');
+  background-size: cover;
   min-height: 100vh;
+  padding-top: 60px; /* Compensar altura de barra fija */
 }
 
 main {
@@ -19,10 +21,16 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: right;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   gap: 25px;
   padding-right: 25px;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 #barra-navegacion a {
   color: #679cd5;
@@ -172,12 +180,16 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
+  body {
+    padding-top: 50px; /* Ajustar para pantallas pequeñas */
+  }
+  
   #barra-navegacion {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    gap: 10px; /* Reduced gap for smaller screens */
+    gap: 10px;
   }
 
   .language-switcher-container {
