@@ -269,3 +269,38 @@ footer img {
     gap: 15px;
   }
 }
+
+/* Estilos para la página de proyectos */
+.proyecto {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.proyecto h2 {
+  margin-top: 0;
+  color: #679cd5;
+}
+
+.imagen-proyecto {
+  width: 500px;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.proyecto a {
+  color: #679cd5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.proyecto a:hover {
+  text-decoration: underline;
+}

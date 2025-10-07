@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Funcionalidad de cambio de idioma
-  let idiomaActual = "es"; // Idioma por defecto
-
+  let idiomaActual = "es";
+  
   function establecerIdioma(idioma) {
     // Asegurarse de que el objeto traducciones está disponible
     if (typeof traducciones === "undefined" || traducciones === null) {
