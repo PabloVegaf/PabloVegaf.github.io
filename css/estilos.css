@@ -1,0 +1,435 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url('../Imagenes/gradii-1920x1080.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 72px;
+  color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+#barra-navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 32px;
+  border-bottom: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+#barra-navegacion a {
+  color: #8ab4f8;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: color 0.2s ease;
+}
+
+#barra-navegacion a:hover {
+  color: #d0e1ff;
+}
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 56px;
+  justify-content: flex-end;
+  align-self: stretch;
+  position: sticky;
+  top: 120px;
+  padding-bottom: 16px;
+}
+#cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: arial;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+#verCookies{
+  text-decoration: none;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 16px;
+  color: inherit;
+}
+#enlaces {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+.menu-lateral img {
+  height: 40px;
+  width: auto;
+}
+footer img {
+  height: 40px;
+  width: auto;
+}
+#fotoPerfil {
+  flex: 0 0 auto;
+  width: clamp(180px, 24vw, 260px);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+#central {
+  flex: 1 1 320px;
+  max-width: 720px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  color: inherit;
+}
+#textoSuperior {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  background: rgba(9, 20, 43, 0.55);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+#central ul {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+#central li {
+  line-height: 1.6;
+}
+.textos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  background: rgba(9, 20, 43, 0.55);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+}
+.textos img {
+  height: 60px;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.imagenTexto {
+  width: 25px !important; /*Important para que .textos img no pise el tamaño de las imagenes*/
+  height: 25px !important;
+  margin-right: 0 !important;
+}
+
+/* Language Switcher Styles */
+.language-switcher-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust as needed */
+}
+
+#language-toggle {
+  display: none; /* Hide the actual checkbox */
+}
+
+/* Style for the label which acts as the switch */
+#nav-lang-label {
+  display: inline-block;
+  width: 70px; /* Increased width to accommodate text */
+  height: 30px; /* Increased height */
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  /* Styling for the text within the label */
+  line-height: 30px; /* Vertically center text */
+  text-align: center;
+  font-size: 0.7em; /* Smaller font for "EN/ES" */
+  color: #f1f4f9; /* Darker text color for better contrast */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  user-select: none; /* Prevent text selection */
+  z-index: 2; /* Ensure text is above the handle */
+}
+
+/* The moving part of the switch */
+#nav-lang-label::before {
+  content: '';
+  position: absolute;
+  width: 24px; /* Slightly smaller handle */
+  height: 24px; /* Slightly smaller handle */
+  background-color: white;
+  border-radius: 50%;
+  top: 3px; /* Better positioning */
+  left: 3px; /* Initial position of the handle (for 'es') */
+  transition: transform 0.3s ease;
+  z-index: 1; /* Ensure handle is below text */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Add shadow for better visibility */
+}
+
+/* When checkbox is checked (English selected) */
+#language-toggle:checked + #nav-lang-label {
+  background-color: #679cd5; /* Active color (same as links for consistency) */
+  color: white; /* Change text color when active */
+}
+
+#language-toggle:checked + #nav-lang-label::before {
+  transform: translateX(40px); /* Move handle to the right */
+}
+
+
+@media screen and (max-width: 1200px) {
+  body {
+    padding-top: 68px;
+  }
+
+  main {
+    padding: 28px 20px 40px;
+    gap: 28px;
+  }
+
+  #central {
+    max-width: 680px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #barra-navegacion {
+    justify-content: space-between;
+    padding: 14px 24px;
+    gap: 18px;
+  }
+
+  #barra-navegacion a {
+    font-size: 0.95rem;
+  }
+
+  #fotoPerfil {
+    width: clamp(180px, 32vw, 240px);
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 64px;
+  }
+
+  main {
+    padding: 24px 16px 36px;
+    gap: 24px;
+  }
+
+  #barra-navegacion {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  #barra-navegacion a {
+    flex: 1 1 120px;
+    text-align: center;
+  }
+
+  .language-switcher-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #fotoPerfil {
+    width: clamp(160px, 44vw, 220px);
+  }
+
+  #textoSuperior,
+  .textos {
+    text-align: center;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .textos {
+    flex-direction: column;
+  }
+
+  .textos img {
+    margin: 0 auto;
+  }
+
+  #central ul {
+    padding-left: 0;
+  }
+
+  #central li {
+    list-style-position: inside;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    padding-top: 60px;
+  }
+
+  #barra-navegacion {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px 16px;
+  }
+
+  #barra-navegacion a {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  #nav-lang-label {
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 0.65rem;
+  }
+
+  #nav-lang-label::before {
+    width: 20px;
+    height: 20px;
+    top: 3px;
+  }
+
+  #language-toggle:checked + #nav-lang-label::before {
+    transform: translateX(34px);
+  }
+
+  #central {
+    gap: 24px;
+  }
+
+  #textoSuperior,
+  .textos {
+    padding: 18px 16px;
+  }
+
+  .menu-lateral {
+    gap: 16px;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0 12px;
+  }
+
+  footer #enlaces {
+    gap: 16px;
+  }
+
+  footer img {
+    height: 36px;
+  }
+}
+
+/* Estilos para la página de proyectos */
+.proyecto {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: inherit;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  width: 100%;
+}
+
+.proyecto h2 {
+  margin-top: 0;
+  color: #3973b1;
+}
+
+.imagen-proyecto {
+  width: min(100%, 520px);
+  height: auto;
+  margin: 10px auto;
+  border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.proyecto a {
+  color: #679cd5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.proyecto a:hover {
+  text-decoration: underline;
+}

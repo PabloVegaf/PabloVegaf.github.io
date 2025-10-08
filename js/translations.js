@@ -13,7 +13,7 @@ const traducciones = {
     en: "Hello! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and tackling new challenges, always striving to enhance my skills and discover new opportunities in software development. What drives me is creating innovative solutions and optimizing processes through artificial intelligence."
   },
   "estudios-p": {
-    es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas. Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML y CSS.",
+    es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas. Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.",
     en: "I studied Computer Systems and Networks at IES Mar de Cádiz, where I learned about operating systems, office software, system administration, and computer network management. Later, I studied Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases."
   },
   "skills-li-1": {
@@ -56,6 +56,10 @@ const traducciones = {
     es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc)",
     en: "A web page where you can upload audio files and get a direct transcription, a brief summary of what the audio is about, or a more extensive and detailed summary (Ideal for talks, lectures, etc.)"
   },
+  "proyectos-personales-a-1": {
+    es: "Ver proyecto",
+    en: "View project"
+  },
   "proyecto-2-titulo": {
     es: "Proyecto 2",
     en: "Project 2"
@@ -64,4 +68,13 @@ const traducciones = {
     es: "Descripción breve del proyecto 2. Aquí puedes añadir detalles sobre las tecnologías usadas, el propósito y un enlace al repositorio o demo.",
     en: "A brief description of Project 2. Here, you can include details on the technologies used, its purpose, and a link to the repository or demo."
   },
+  "proyecto-3-titulo": {
+    es: "Servidor doméstico",
+    en: "Home Server"
+  },
+  "proyecto-3-desc": {
+    es: "Pequeño servidor doméstico montado con un portatil antiguo, donde se alojan servicios como Maybe (Gestor de economía personal), HomeAssistant (Domótica), servidor web personal, n8n, etc.",
+    en: "Little home server built with an old laptop, hosting services like Maybe (Personal Finance Manager), HomeAssistant (Home Automation), personal web server, n8n, etc."
+  },
+
 };
