@@ -33,12 +33,12 @@ const traducciones = {
     en: "<b>Tools:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama"
   },
   "skills-li-5": {
-    es: "<b>Inteligencia Artificial:</b> Experimentación con IA open-source localmente, creación de servidores MCP.",
-    en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers."
+    es: "<b>Inteligencia Artificial:</b> Experimentación con IA open-source localmente, creación de servidores MCP, automatizaciones con agentes en n8n.",
+    en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
   },
   "footer-copyright": {
-    es: "©2025-Pablo Vega. Todos los derechos reservados",
-    en: "©2025-Pablo Vega. All rights reserved"
+    es: "© 2025 Pablo Vega. Todos los derechos reservados.",
+    en: "© 2025 Pablo Vega. All rights reserved."
   },
   "nav-proyectos": {
     es: "Proyectos",
@@ -61,8 +61,8 @@ const traducciones = {
     en: "View project"
   },
   "proyecto-2-titulo": {
-    es: "Proyecto 2",
-    en: "Project 2"
+    es: "Proyecto 2 (MCP de Steam)",
+    en: "Project 2 (Steam MCP)"
   },
   "proyecto-2-desc": {
     es: "Descripción breve del proyecto 2. Aquí puedes añadir detalles sobre las tecnologías usadas, el propósito y un enlace al repositorio o demo.",
@@ -73,8 +73,59 @@ const traducciones = {
     en: "Home Server"
   },
   "proyecto-3-desc": {
-    es: "Pequeño servidor doméstico montado con un portatil antiguo, donde se alojan servicios como Maybe (Gestor de economía personal), HomeAssistant (Domótica), servidor web personal, n8n, etc.",
-    en: "Little home server built with an old laptop, hosting services like Maybe (Personal Finance Manager), HomeAssistant (Home Automation), personal web server, n8n, etc."
+    es: "Pequeño servidor doméstico Linux montado con un portatil antiguo donde se alojan servicios como Maybe (Gestor de economía personal), HomeAssistant (Domótica), servidor web personal, n8n, etc.",
+    en: "Little Linux home server built with an old laptop, hosting services like Maybe (Personal Finance Manager), HomeAssistant (Home Automation), personal web server, n8n, etc."
   },
 
+};
+
+const traduccionesAtributos = {
+  "footer-mail-link": {
+    title: {
+      es: "Envíame un correo",
+      en: "Email me"
+    },
+    "aria-label": {
+      es: "Envíame un correo",
+      en: "Email me"
+    }
+  },
+  "footer-linkedin-link": {
+    title: {
+      es: "Visita mi LinkedIn",
+      en: "Visit my LinkedIn"
+    },
+    "aria-label": {
+      es: "Visita mi LinkedIn",
+      en: "Visit my LinkedIn"
+    }
+  },
+  "footer-cv-link": {
+    title: {
+      es: "Descarga mi CV",
+      en: "Download my CV"
+    },
+    "aria-label": {
+      es: "Descarga mi CV",
+      en: "Download my CV"
+    },
+    href: {
+      es: "../Archivos/CV-ES.pdf",
+      en: "../Archivos/CV-EN.pdf"
+    },
+    download: {
+      es: "Pablo-Vega-CV-ES.pdf",
+      en: "Pablo-Vega-CV-EN.pdf"
+    }
+  },
+  "footer-github-link": {
+    title: {
+      es: "Visita mi GitHub",
+      en: "Visit my GitHub"
+    },
+    "aria-label": {
+      es: "Visita mi GitHub",
+      en: "Visit my GitHub"
+    }
+  }
 };

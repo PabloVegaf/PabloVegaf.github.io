@@ -33,6 +33,26 @@ $(document).ready(function () {
       }
     }
 
+    // Aplicar traducciones para atributos (por ejemplo, title, aria-label)
+    if (typeof traduccionesAtributos !== "undefined" && traduccionesAtributos !== null) {
+      for (const clave in traduccionesAtributos) {
+        if (traduccionesAtributos.hasOwnProperty(clave)) {
+          const elemento = document.getElementById(clave);
+          if (!elemento) continue;
+
+          const atributos = traduccionesAtributos[clave];
+          for (const atributo in atributos) {
+            if (atributos.hasOwnProperty(atributo)) {
+              const valores = atributos[atributo];
+              if (valores && typeof valores[idioma] !== "undefined") {
+                elemento.setAttribute(atributo, valores[idioma]);
+              }
+            }
+          }
+        }
+      }
+    }
+
     // Actualizar el atributo lang de la etiqueta <html>
     document.documentElement.lang = idioma;
 
