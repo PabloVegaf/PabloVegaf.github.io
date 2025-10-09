@@ -12,8 +12,19 @@
         <a href="Principal.html" id="nav-inicio"></a>
         <a href="Proyectos.html" id="nav-proyectos"></a>
         <div class="language-switcher-container">
-          <input type="checkbox" id="language-toggle" />
-          <label for="language-toggle" id="nav-lang-label"></label>
+          <button
+            type="button"
+            id="language-toggle"
+            class="language-toggle-button"
+            aria-labelledby="nav-lang-label"
+          >
+            <span id="nav-lang-label" class="visually-hidden"></span>
+            <img
+              id="language-flag"
+              src="Imagenes/spain-flag.png"
+              alt="Bandera de España"
+            />
+          </button>
         </div>
       </nav>
     </header>

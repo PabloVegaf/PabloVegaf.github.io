@@ -46,7 +46,7 @@ main {
   justify-content: flex-end;
   align-items: center;
   gap: 24px;
-  padding: 16px 32px;
+  padding: 10px 32px;
   border-bottom: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(12px);
   position: fixed;
@@ -181,60 +181,46 @@ footer img {
 
 /* Language Switcher Styles */
 .language-switcher-container {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px; /* Adjust as needed */
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
-#language-toggle {
-  display: none; /* Hide the actual checkbox */
-}
-
-/* Style for the label which acts as the switch */
-#nav-lang-label {
-  display: inline-block;
-  width: 70px; /* Increased width to accommodate text */
-  height: 30px; /* Increased height */
-  background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 15px;
-  position: relative;
+.language-toggle-button {
+  background: rgba(255, 255, 255, 0.0);
+  border: none;
+  padding: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
-
-  /* Styling for the text within the label */
-  line-height: 30px; /* Vertically center text */
-  text-align: center;
-  font-size: 0.7em; /* Smaller font for "EN/ES" */
-  color: #f1f4f9; /* Darker text color for better contrast */
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  user-select: none; /* Prevent text selection */
-  z-index: 2; /* Ensure text is above the handle */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
-/* The moving part of the switch */
-#nav-lang-label::before {
-  content: '';
-  position: absolute;
-  width: 24px; /* Slightly smaller handle */
-  height: 24px; /* Slightly smaller handle */
-  background-color: white;
+.language-toggle-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#language-flag {
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  top: 3px; /* Better positioning */
-  left: 3px; /* Initial position of the handle (for 'es') */
-  transition: transform 0.3s ease;
-  z-index: 1; /* Ensure handle is below text */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Add shadow for better visibility */
+  object-fit: cover;
+  display: block;
 }
 
-/* When checkbox is checked (English selected) */
-#language-toggle:checked + #nav-lang-label {
-  background-color: #679cd5; /* Active color (same as links for consistency) */
-  color: white; /* Change text color when active */
-}
-
-#language-toggle:checked + #nav-lang-label::before {
-  transform: translateX(40px); /* Move handle to the right */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
 }
 
 
@@ -256,7 +242,7 @@ footer img {
 @media screen and (max-width: 1024px) {
   #barra-navegacion {
     justify-content: space-between;
-    padding: 14px 24px;
+    padding: 10px 24px;
     gap: 18px;
   }
 
@@ -291,19 +277,21 @@ footer img {
   }
 
   #barra-navegacion {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 12px;
   }
 
   #barra-navegacion a {
-    flex: 1 1 120px;
+    flex: 1 1 auto;
     text-align: center;
   }
 
   .language-switcher-container {
-    width: 100%;
+    flex: 1 1 auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   #fotoPerfil {
@@ -336,35 +324,42 @@ footer img {
 
 @media screen and (max-width: 520px) {
   body {
-    padding-top: 60px;
+    padding-top: 85px;
   }
 
   #barra-navegacion {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 12px 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    gap: 12px;
   }
 
   #barra-navegacion a {
-    width: 100%;
-    padding: 8px 0;
+    flex: 1 1 auto;
+    padding: 6px 0;
+    font-size: 0.85rem;
+    line-height: normal;
   }
 
-  #nav-lang-label {
-    width: 60px;
-    height: 26px;
-    line-height: 26px;
-    font-size: 0.65rem;
+  #nav-inicio,
+  #nav-proyectos {
+    line-height: 1.2;
+    padding: 0;
   }
 
-  #nav-lang-label::before {
-    width: 20px;
-    height: 20px;
-    top: 3px;
+  .language-toggle-button {
+    padding: 3px;
   }
 
-  #language-toggle:checked + #nav-lang-label::before {
-    transform: translateX(34px);
+  .language-switcher-container {
+    flex: 1 1 auto;
+    justify-content: flex-end;
+  }
+
+  #language-flag {
+    width: 32px;
+    height: 32px;
   }
 
   #central {
@@ -429,6 +424,13 @@ footer img {
   color: #679cd5;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+.proyecto p{
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .proyecto a:hover {

@@ -1,6 +1,19 @@
 $(document).ready(function () {
   // Funcionalidad de cambio de idioma
   let idiomaActual = "es";
+  const banderaIdioma = document.getElementById("language-flag");
+
+  function actualizarBandera(idioma) {
+    if (!banderaIdioma) return;
+
+    if (idioma === "es") {
+      banderaIdioma.src = "Imagenes/spain-flag.png";
+      banderaIdioma.alt = "Bandera de España";
+    } else {
+      banderaIdioma.src = "Imagenes/united-states-flag.png";
+      banderaIdioma.alt = "United States flag";
+    }
+  }
   
   function establecerIdioma(idioma) {
     // Asegurarse de que el objeto traducciones está disponible
@@ -68,17 +81,17 @@ $(document).ready(function () {
     ) {
       elementoEtiquetaIdioma.innerHTML = traducciones["nav-lang-label"][idioma];
     }
+
+    actualizarBandera(idioma);
   }
 
   // Event listener para el conmutador de idioma
-  const toggleIdiomaJQuery = $("#language-toggle"); // Usar selector jQuery
+  const toggleIdiomaJQuery = $("#language-toggle");
   if (toggleIdiomaJQuery.length) {
-    toggleIdiomaJQuery.on("change", function () {
-      if ($(this).is(":checked")) {
-        // Marcado significa que el usuario seleccionó Inglés
+    toggleIdiomaJQuery.on("click", function () {
+      if (idiomaActual === "es") {
         establecerIdioma("en");
       } else {
-        // Desmarcado significa que el usuario seleccionó Español
         establecerIdioma("es");
       }
     });

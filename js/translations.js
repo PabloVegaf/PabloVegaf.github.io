@@ -53,8 +53,8 @@ const traducciones = {
     en: "Transcribe-summarize"
   },
   "proyecto-1-desc": {
-    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc)",
-    en: "A web page where you can upload audio files and get a direct transcription, a brief summary of what the audio is about, or a more extensive and detailed summary (Ideal for talks, lectures, etc.)"
+    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc) utilizando Whisper para la transcripción y GPT4o para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales",
+    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT-4o for summaries. My goal with this project is to learn how to integrate AI models into real-world applications"
   },
   "proyectos-personales-a-1": {
     es: "Ver proyecto",
@@ -67,6 +67,10 @@ const traducciones = {
   "proyecto-2-desc": {
     es: "Descripción breve del proyecto 2. Aquí puedes añadir detalles sobre las tecnologías usadas, el propósito y un enlace al repositorio o demo.",
     en: "A brief description of Project 2. Here, you can include details on the technologies used, its purpose, and a link to the repository or demo."
+  },
+  "proyectos-personales-a-2": {
+    es: "Ver proyecto",
+    en: "View project"
   },
   "proyecto-3-titulo": {
     es: "Servidor doméstico",
