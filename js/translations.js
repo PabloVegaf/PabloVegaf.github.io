@@ -53,12 +53,16 @@ const traducciones = {
     en: "Transcribe-summarize"
   },
   "proyecto-1-desc": {
-    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc) utilizando Whisper para la transcripción y GPT4o para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales",
-    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT-4o for summaries. My goal with this project is to learn how to integrate AI models into real-world applications"
+    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc) utilizando Whisper para la transcripción y GPT5-nano para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales. Sólo necesitas una api key de OpenAI para usarlo.",
+    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT5-nano for summaries. My goal with this project is to learn how to integrate AI models into real-world applications. You only need an OpenAI API key to use it."
   },
   "proyectos-personales-a-1": {
-    es: "Ver proyecto",
-    en: "View project"
+    es: "Ver repositorio del proyecto",
+    en: "View project repository"
+  },
+  "proyectos-personales-a-1-web":{
+    es: "Visita la web",
+    en: "Visit the website"
   },
   "proyecto-2-titulo": {
     es: "Proyecto 2 (MCP de Steam)",
