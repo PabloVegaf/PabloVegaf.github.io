@@ -10,7 +10,7 @@ const traducciones = {
   },
   "textoSuperior": {
     es: "¡Hola! Soy Pablo Vega, un apasionado de la tecnología y la inteligencia artificial. Me encanta aprender y enfrentar nuevos retos, siempre buscando mejorar mis habilidades y explorar nuevas oportunidades en el desarrollo de software. Me motiva la creación de soluciones innovadoras y la optimización de procesos mediante inteligencia artificial.",
-    en: "Hello! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and tackling new challenges, always striving to enhance my skills and discover new opportunities in software development. What drives me is creating innovative solutions and optimizing processes through artificial intelligence."
+    en: "Hello! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and taking on new challenges, always striving to enhance my skills and explore new opportunities in software development. What drives me is creating innovative solutions and optimizing processes through artificial intelligence."
   },
   "estudios-p": {
     es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas.<br><br>Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.<br><br>Adicionalmente, he aprendido de forma autodidacta sobre inteligencia artificial, experimentando con LLMs y otros modelos de código abierto, así como su integración en aplicaciones prácticas.",
@@ -33,7 +33,7 @@ const traducciones = {
     en: "<b>Tools:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama"
   },
   "skills-li-5": {
-    es: "<b>Inteligencia Artificial:</b> Experimentación con IA open-source localmente, creación de servidores MCP, automatizaciones con agentes en n8n.",
+    es: "<b>Inteligencia Artificial:</b> Experimentación con IA de código abierto de forma local, creación de servidores MCP, automatizaciones con agentes en n8n.",
     en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
   },
   "footer-copyright": {
@@ -53,36 +53,36 @@ const traducciones = {
     en: "Transcribe-summarize"
   },
   "proyecto-1-desc": {
-    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc) utilizando Whisper para la transcripción y GPT5-nano para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales. Sólo necesitas una api key de OpenAI para usarlo.",
-    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT5-nano for summaries. My goal with this project is to learn how to integrate AI models into real-world applications. You only need an OpenAI API key to use it."
+    es: "Aplicación web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (ideal para charlas, ponencias, etc.) utilizando Whisper para la transcripción y GPT-5-nano para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales. Solo necesitas una API key de OpenAI para usarlo.",
+    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT-5-nano for summaries. My goal with this project is to learn how to integrate AI models into real-world applications. You only need an OpenAI API key to use it."
   },
   "proyectos-personales-a-1": {
     es: "Ver repositorio del proyecto",
     en: "View project repository"
   },
   "proyectos-personales-a-1-web":{
-    es: "Visita la web",
-    en: "Visit the website"
+    es: "Visitar sitio web",
+    en: "Visit website"
   },
   "proyecto-2-titulo": {
-    es: "Proyecto 2 (MCP de Steam)",
-    en: "Project 2 (Steam MCP)"
+    es: "Servidor MCP de Steam",
+    en: "Steam MCP Server"
   },
   "proyecto-2-desc": {
-    es: "Descripción breve del proyecto 2. Aquí puedes añadir detalles sobre las tecnologías usadas, el propósito y un enlace al repositorio o demo.",
-    en: "A brief description of Project 2. Here, you can include details on the technologies used, its purpose, and a link to the repository or demo."
+    es: "Servidor del Protocolo de Contexto de Modelos (MCP) que permite a los asistentes de IA acceder a información de Steam, incluyendo detalles de juegos, estadísticas de jugadores y datos de la biblioteca personal.",
+    en: "Model Context Protocol (MCP) server that allows AI assistants to access Steam information, including game details, player statistics, and personal library data."
   },
   "proyectos-personales-a-2": {
-    es: "Ver proyecto",
-    en: "View project"
+    es: "Ver repositorio",
+    en: "View repository"
   },
   "proyecto-3-titulo": {
     es: "Servidor doméstico",
     en: "Home Server"
   },
   "proyecto-3-desc": {
-    es: "Pequeño servidor doméstico Linux montado con un portatil antiguo donde se alojan servicios como Maybe (Gestor de economía personal), HomeAssistant (Domótica), servidor web personal, n8n, etc.",
-    en: "Little Linux home server built with an old laptop, hosting services like Maybe (Personal Finance Manager), HomeAssistant (Home Automation), personal web server, n8n, etc."
+    es: "Servidor doméstico Linux montado con un portátil antiguo donde se alojan servicios como Maybe (gestor de economía personal), Home Assistant (domótica), servidor web personal, n8n (automatización de flujos de trabajo), entre otros.",
+    en: "Linux home server built with an old laptop, hosting services like Maybe (personal finance manager), Home Assistant (home automation), personal web server, n8n (workflow automation), among others."
   },
 
 };
