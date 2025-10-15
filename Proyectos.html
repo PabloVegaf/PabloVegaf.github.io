@@ -1,105 +1,131 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/proyectos.css" />
-    <title>Proyectos</title>
+    <title>Proyectos - Pablo Vega Flores</title>
+    <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <nav id="barra-navegacion">
-      <h3 id="nav-proyectos-personales">Proyectos personales</h3>
-      <a href="Principal.html" id="nav-inicio">Inicio</a>
-      <a href="Proyectos.html" id="nav-proyectos">Proyectos</a>
-      <div class="language-switcher-container">
-        <input type="checkbox" id="language-toggle" />
-        <label for="language-toggle" id="nav-lang-label">EN/ES</label>
-      </div>
-    </nav>
-
-    <div id="central">
-      <div id="proyectos">
-        <div id="next-gen-web">
-          <img src="Imagenes/Next-Gen-Web.png" alt="Imagen proyecto Next Gen" />
-          <h3 id="next-gen-web-h3">Next-Gen Web</h3>
-          <p id="next-gen-web-p">
-            Next-Gen Web es una plataforma innovadora diseñada para llevar el
-            desarrollo web al siguiente nivel mediante la integración de
-            inteligencia artificial y automatización avanzada. Con un potente
-            motor de generación de código basado en IA, Next-Gen Web permite a
-            los desarrolladores crear interfaces dinámicas y optimizadas sin
-            esfuerzo. Su tecnología de aprendizaje automático analiza patrones
-            de diseño y código para sugerir mejoras en rendimiento y
-            accesibilidad. Además, incorpora herramientas de seguridad avanzadas
-            para proteger las aplicaciones web contra vulnerabilidades comunes.
-            Con una interfaz intuitiva y adaptable, Next-Gen Web redefine la
-            forma en que se crean y gestionan proyectos en la era digital.
-          </p>
+    <header>
+      <nav id="barra-navegacion">
+        <a href="Principal.html" id="nav-inicio"></a>
+        <a href="Proyectos.html" id="nav-proyectos"></a>
+        <div class="language-switcher-container">
+          <button
+            type="button"
+            id="language-toggle"
+            class="language-toggle-button"
+            aria-labelledby="nav-lang-label"
+          >
+            <span id="nav-lang-label" class="visually-hidden"></span>
+            <img
+              id="language-flag"
+              src="Imagenes/spain-flag.png"
+              alt="Bandera de España"
+            />
+          </button>
         </div>
-        <div id="codewave">
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="proyectos-titulo"></h1>
+      <div class="proyecto">
+        <h2 id="proyecto-1-titulo"></h2>
+        <p id="proyecto-1-desc"></p>
+        <img
+          class="imagen-proyecto"
+          src="Imagenes/Transcribe-summarize-screenshot.png"
+          alt="Transcribe-summarize"
+        />
+        <div class="enlaces">
+          <a
+            id="proyectos-personales-a-1"
+            href="https://github.com/PabloVegaf/Transcribe-summarize.git"
+            target="_blank"
+          ></a>
+          <a
+            id="proyectos-personales-a-1-web"
+            href="#"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+      <!--
+        <div class="proyecto">
+          <h2 id="proyecto-2-titulo"></h2>
+          <p id="proyecto-2-desc"></p>
           <img
-            src="Imagenes/Code-Wave-Innovations.png"
-            alt="Imagen proyecto CodeWave"
+            class="imagen-proyecto"
+            src="https://via.placeholder.com/400x200"
+            alt="Imagen del proyecto 2"
           />
-          <h3 id="codewave-h3">CodeWave Innovations</h3>
-          <p id="codewave-p">
-            CodeWave Innovations es un ecosistema de desarrollo de software
-            impulsado por inteligencia artificial y computación en la nube. Su
-            enfoque se centra en la creación de soluciones escalables y
-            eficientes para empresas y desarrolladores independientes. Gracias a
-            su arquitectura modular, CodeWave permite integrar fácilmente
-            tecnologías como blockchain, procesamiento de lenguaje natural y
-            optimización algorítmica en cualquier proyecto. Además, ofrece una
-            API avanzada que facilita la automatización de procesos y la
-            implementación de modelos de IA personalizados. Con un diseño
-            centrado en la velocidad y la innovación, CodeWave Innovations está
-            transformando el mundo de la programación y la inteligencia
-            artificial.
-          </p>
+          <div class="enlaces">
+            <a id="proyectos-personales-a-2" href="#" target="_blank"></a>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="menu-lateral">
-      <div class="logo-linkedin">
-        <a href="https://www.linkedin.com/in/pablo-vega-flores/" target="_blank"
-          ><img
-            src="Imagenes/logotipo-de-linkedin.png"
-            alt="Enlace a mi LinkedIn"
-        /></a>
-      </div>
-      <div class="logo-mail">
-        <a href="mailto:pablo.veflo.pvf@gmail.com"
-          ><img src="Imagenes/correo.png" alt="Envíame un correo"
-        /></a>
-      </div>
-      <div class="logo-github">
-        <a href="https://github.com/pvega7721" target="_blank"
-          ><img src="Imagenes/github.png" alt="Enlace a mi GitHub"
-        /></a>
-      </div>
-    </div>
+        <div class="proyecto">
+          <h2 id="proyecto-3-titulo"></h2>
+          <p id="proyecto-3-desc"></p>
+          <img
+            class="imagen-proyecto"
+            src="https://via.placeholder.com/400x200"
+            alt="Imagen del proyecto 3"
+          />
+        </div>
+      -->
+    </main>
     <footer>
       <div id="enlaces">
         <div class="logo-mail">
-          <a href="mailto:pablo.veflo.pvf@gmail.com"
-            ><img src="Imagenes/correo.png" alt="Envíame un correo"
-          /></a>
+          <a
+            id="footer-mail-link"
+            href="mailto:pablo.veflo.pvf@gmail.com"
+            title="Envíame un correo"
+            aria-label="Envíame un correo"
+          >
+            <img src="Imagenes/correo.png" alt="Envíame un correo" />
+          </a>
         </div>
         <div class="logo-linkedin">
-          <a href="https://www.linkedin.com/in/pablo-vega-flores/" target="_blank"
-            ><img
+          <a
+            id="footer-linkedin-link"
+            href="https://www.linkedin.com/in/pablo-vega-flores"
+            target="_blank"
+            title="Visita mi LinkedIn"
+            aria-label="Visita mi LinkedIn"
+          >
+            <img
               src="Imagenes/logotipo-de-linkedin.png"
               alt="Enlace a mi LinkedIn"
-          /></a>
+            />
+          </a>
         </div>
         <div class="logo-cv">
-          <a href="CV Pablo Vega.pdf" download="CV Pablo Vega"
-            ><img src="Imagenes/cv.png" alt="Descarga cv"
-          /></a>
+          <a
+            id="footer-cv-link"
+            href="Archivos/CV-ES.pdf"
+            download="Pablo-Vega-CV-ES.pdf"
+            title="Descarga mi CV"
+            aria-label="Descarga mi CV"
+          >
+            <img src="Imagenes/cv.png" alt="Descarga cv" />
+          </a>
+        </div>
+        <div class="logo-github">
+          <a
+            id="footer-github-link"
+            href="https://github.com/pvega7721"
+            target="_blank"
+            title="Visita mi GitHub"
+            aria-label="Visita mi GitHub"
+          >
+            <img src="Imagenes/github.png" alt="Enlace a mi GitHub" />
+          </a>
         </div>
       </div>
-      <p id="footer-copyright">©2025-Pablo Vega. Todos los derechos reservados</p>
+      <p id="footer-copyright"></p>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"

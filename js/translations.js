@@ -4,80 +4,136 @@ const traducciones = {
     es: "Inicio",
     en: "Home"
   },
-  "nav-proyectos": {
-    es: "Proyectos",
-    en: "Projects"
-  },
   "nav-lang-label": {
     es: "EN/ES",
     en: "ES/EN"
   },
   "textoSuperior": {
-    es: "¡Hola! Soy Pablo Vega, un apasionado de la tecnología y la inteligencia artificial. Me encanta aprender y enfrentar nuevos retos, siempre buscando mejorar mis habilidades y explorar nuevas oportunidades en el desarrollo de software. Me motiva la creación de soluciones innovadoras y la optimización de procesos mediante la inteligencia artificial.",
-    en: "Hi! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and facing new challenges, always seeking to improve my skills and explore new opportunities in software development. I am motivated by creating innovative solutions and optimizing processes through artificial intelligence."
+    es: "¡Hola! Soy Pablo Vega, un apasionado de la tecnología y la inteligencia artificial. Me encanta aprender y enfrentar nuevos retos, siempre buscando mejorar mis habilidades y explorar nuevas oportunidades en el desarrollo de software. Me motiva la creación de soluciones innovadoras y la optimización de procesos mediante inteligencia artificial.",
+    en: "Hello! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and tackling new challenges, always striving to enhance my skills and discover new opportunities in software development. What drives me is creating innovative solutions and optimizing processes through artificial intelligence."
   },
   "estudios-p": {
-    es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde adquirí conocimientos en sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas. Actualmente, estudio Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.",
-    en: "I studied Microcomputer Systems and Networks at IES Mar de Cádiz, where I gained knowledge in operating systems, office software, system administration, and computer network management. Currently, I am studying Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases."
+    es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas.<br><br>Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.<br><br>Adicionalmente, he aprendido de forma autodidacta sobre inteligencia artificial, experimentando con LLMs y otros modelos de código abierto, así como su integración en aplicaciones prácticas.",
+    en: "I studied Computer Systems and Networks at IES Mar de Cádiz, where I learned about operating systems, office software, system administration, and computer network management.<br><br>Later, I studied Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases.<br><br>Additionally, I have learned through self-study about artificial intelligence, experimenting with LLMs and other open-source models, as well as their integration into practical applications."
   },
   "skills-li-1": {
-    es: "<b>Desarrollo web:</b> HTML <img src=\"Imagenes/html5_logo.png\" class=\"imagenTexto\" alt=\"HTML5 Logo\">, CSS <img src=\"Imagenes/css3Logo.png\" class=\"imagenTexto\" alt=\"CSS3 Logo\">, JavaScript <img src=\"Imagenes/javascriptLogo.png\" class=\"imagenTexto\" alt=\"JavaScript Logo\">, Angular <img src=\"Imagenes/angularLogo.png\" class=\"imagenTexto\" alt=\"Angular Logo\">.",
-    en: "<b>Web Development:</b> HTML <img src=\"Imagenes/html5_logo.png\" class=\"imagenTexto\" alt=\"HTML5 Logo\">, CSS <img src=\"Imagenes/css3Logo.png\" class=\"imagenTexto\" alt=\"CSS3 Logo\">, JavaScript <img src=\"Imagenes/javascriptLogo.png\" class=\"imagenTexto\" alt=\"JavaScript Logo\">, Angular <img src=\"Imagenes/angularLogo.png\" class=\"imagenTexto\" alt=\"Angular Logo\">."
+    es: "<b>Desarrollo web:</b> HTML, CSS, JavaScript, Angular.",
+    en: "<b>Web Development:</b> HTML, CSS, JavaScript, Angular."
   },
   "skills-li-2": {
     es: "<b>Bases de datos:</b> OracleSQL, MariaDB, MySQL",
     en: "<b>Databases:</b> OracleSQL, MariaDB, MySQL"
   },
   "skills-li-3": {
-    es: "<b>Intereses:</b> Desarrollo front-end e Inteligencia Artificial",
-    en: "<b>Interests:</b> Front-end Development and Artificial Intelligence"
+    es: "<b>Intereses:</b> Desarrollo full-stack e Inteligencia Artificial",
+    en: "<b>Interests:</b> Full-Stack Development and Artificial Intelligence"
   },
   "skills-li-4": {
-    es: "<b>Herramientas:</b> VS Code, GitHub, Linux, phpMyAdmin, Postman",
-    en: "<b>Tools:</b> VS Code, GitHub, Linux, phpMyAdmin, Postman"
+    es: "<b>Herramientas:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama",
+    en: "<b>Tools:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama"
   },
   "skills-li-5": {
-    es: "<b>Inteligencia Artifical:</b> Experimentación con IA open-source localmente, utilizando herramientas como Pinokio, Ollama, ComfyUI, entre otros.",
-    en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, using tools like Pinokio, Ollama, ComfyUI, among others."
-  },
-  "cookies-h2": {
-    es: "¿Aceptas nuestras Cookies?",
-    en: "Do you accept our Cookies?"
-  },
-  "cookies-p": {
-    es: "Usamos cookies para mejorar tu experiencia en nuestra web.",
-    en: "We use cookies to improve your experience on our website."
-  },
-  "aceptar": {
-    es: "Aceptar",
-    en: "Accept"
-  },
-  "verCookies": {
-    es: "Ver página de cookies",
-    en: "View cookies page"
+    es: "<b>Inteligencia Artificial:</b> Experimentación con IA open-source localmente, creación de servidores MCP, automatizaciones con agentes en n8n.",
+    en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
   },
   "footer-copyright": {
-    es: "©2025-Pablo Vega. Todos los derechos reservados",
-    en: "©2025-Pablo Vega. All rights reserved"
+    es: "© 2025 Pablo Vega. Todos los derechos reservados.",
+    en: "© 2025 Pablo Vega. All rights reserved."
   },
-  "nav-proyectos-personales": {
+  "nav-proyectos": {
+    es: "Proyectos",
+    en: "Projects"
+  },
+  "proyectos-titulo": {
     es: "Proyectos personales",
     en: "Personal Projects"
   },
-  "next-gen-web-h3": {
-    es: "Next-Gen Web",
-    en: "Next-Gen Web"
+  "proyecto-1-titulo": {
+    es: "Transcribe-summarize",
+    en: "Transcribe-summarize"
   },
-  "next-gen-web-p": {
-    es: "Next-Gen Web es una plataforma innovadora diseñada para llevar el desarrollo web al siguiente nivel mediante la integración de inteligencia artificial y automatización avanzada. Con un potente motor de generación de código basado en IA, Next-Gen Web permite a los desarrolladores crear interfaces dinámicas y optimizadas sin esfuerzo. Su tecnología de aprendizaje automático analiza patrones de diseño y código para sugerir mejoras en rendimiento y accesibilidad. Además, incorpora herramientas de seguridad avanzadas para proteger las aplicaciones web contra vulnerabilidades comunes. Con una interfaz intuitiva y adaptable, Next-Gen Web redefine la forma en que se crean y gestionan proyectos en la era digital.",
-    en: "Next-Gen Web is an innovative platform designed to take web development to the next level by integrating artificial intelligence and advanced automation. With a powerful AI-based code generation engine, Next-Gen Web allows developers to create dynamic and optimized interfaces effortlessly. Its machine learning technology analyzes design and code patterns to suggest improvements in performance and accessibility. Additionally, it incorporates advanced security tools to protect web applications against common vulnerabilities. With an intuitive and adaptable interface, Next-Gen Web redefines how projects are created and managed in the digital age."
+  "proyecto-1-desc": {
+    es: "Página web donde puedes subir archivos de audio y obtener una transcripción directa, un resumen breve sobre qué trata el audio o un resumen más extenso y detallado (Ideal para charlas, ponencias, etc) utilizando Whisper para la transcripción y GPT5-nano para los resúmenes. Mi objetivo con este proyecto es aprender a integrar modelos de inteligencia artificial en aplicaciones reales. Sólo necesitas una api key de OpenAI para usarlo.",
+    en: "A web application where you can upload audio files and get a direct transcription, a brief summary of the content, or a more comprehensive and detailed summary (ideal for talks, lectures, etc.) using Whisper for transcription and GPT5-nano for summaries. My goal with this project is to learn how to integrate AI models into real-world applications. You only need an OpenAI API key to use it."
   },
-  "codewave-h3": {
-    es: "CodeWave Innovations",
-    en: "CodeWave Innovations"
+  "proyectos-personales-a-1": {
+    es: "Ver repositorio del proyecto",
+    en: "View project repository"
   },
-  "codewave-p": {
-    es: "CodeWave Innovations es un ecosistema de desarrollo de software impulsado por inteligencia artificial y computación en la nube. Su enfoque se centra en la creación de soluciones escalables y eficientes para empresas y desarrolladores independientes. Gracias a su arquitectura modular, CodeWave permite integrar fácilmente tecnologías como blockchain, procesamiento de lenguaje natural y optimización algorítmica en cualquier proyecto. Además, ofrece una API avanzada que facilita la automatización de procesos y la implementación de modelos de IA personalizados. Con un diseño centrado en la velocidad y la innovación, CodeWave Innovations está transformando el mundo de la programación y la inteligencia artificial.",
-    en: "CodeWave Innovations is a software development ecosystem powered by artificial intelligence and cloud computing. Its focus is on creating scalable and efficient solutions for companies and independent developers. Thanks to its modular architecture, CodeWave allows for easy integration of technologies like blockchain, natural language processing, and algorithmic optimization into any project. Furthermore, it offers an advanced API that facilitates process automation and the implementation of custom AI models. With a design centered on speed and innovation, CodeWave Innovations is transforming the world of programming and artificial intelligence."
+  "proyectos-personales-a-1-web":{
+    es: "Visita la web",
+    en: "Visit the website"
+  },
+  "proyecto-2-titulo": {
+    es: "Proyecto 2 (MCP de Steam)",
+    en: "Project 2 (Steam MCP)"
+  },
+  "proyecto-2-desc": {
+    es: "Descripción breve del proyecto 2. Aquí puedes añadir detalles sobre las tecnologías usadas, el propósito y un enlace al repositorio o demo.",
+    en: "A brief description of Project 2. Here, you can include details on the technologies used, its purpose, and a link to the repository or demo."
+  },
+  "proyectos-personales-a-2": {
+    es: "Ver proyecto",
+    en: "View project"
+  },
+  "proyecto-3-titulo": {
+    es: "Servidor doméstico",
+    en: "Home Server"
+  },
+  "proyecto-3-desc": {
+    es: "Pequeño servidor doméstico Linux montado con un portatil antiguo donde se alojan servicios como Maybe (Gestor de economía personal), HomeAssistant (Domótica), servidor web personal, n8n, etc.",
+    en: "Little Linux home server built with an old laptop, hosting services like Maybe (Personal Finance Manager), HomeAssistant (Home Automation), personal web server, n8n, etc."
+  },
+
+};
+
+const traduccionesAtributos = {
+  "footer-mail-link": {
+    title: {
+      es: "Envíame un correo",
+      en: "Email me"
+    },
+    "aria-label": {
+      es: "Envíame un correo",
+      en: "Email me"
+    }
+  },
+  "footer-linkedin-link": {
+    title: {
+      es: "Visita mi LinkedIn",
+      en: "Visit my LinkedIn"
+    },
+    "aria-label": {
+      es: "Visita mi LinkedIn",
+      en: "Visit my LinkedIn"
+    }
+  },
+  "footer-cv-link": {
+    title: {
+      es: "Descarga mi CV",
+      en: "Download my CV"
+    },
+    "aria-label": {
+      es: "Descarga mi CV",
+      en: "Download my CV"
+    },
+    href: {
+      es: "../Archivos/CV-ES.pdf",
+      en: "../Archivos/CV-EN.pdf"
+    },
+    download: {
+      es: "Pablo-Vega-CV-ES.pdf",
+      en: "Pablo-Vega-CV-EN.pdf"
+    }
+  },
+  "footer-github-link": {
+    title: {
+      es: "Visita mi GitHub",
+      en: "Visit my GitHub"
+    },
+    "aria-label": {
+      es: "Visita mi GitHub",
+      en: "Visit my GitHub"
+    }
   }
 };

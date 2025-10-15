@@ -1,163 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pablo Vega Flores</title>
-    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
     <header>
-
       <nav id="barra-navegacion">
-        <a href="Principal.html" id="nav-inicio">Inicio</a>
-        <a href="Proyectos.html" id="nav-proyectos">Proyectos</a>
+        <a href="Principal.html" id="nav-inicio"></a>
+        <a href="Proyectos.html" id="nav-proyectos"></a>
         <div class="language-switcher-container">
-          <input type="checkbox" id="language-toggle" />
-          <label for="language-toggle" id="nav-lang-label">EN/ES</label>
+          <button
+            type="button"
+            id="language-toggle"
+            class="language-toggle-button"
+            aria-labelledby="nav-lang-label"
+          >
+            <span id="nav-lang-label" class="visually-hidden"></span>
+            <img
+              id="language-flag"
+              src="Imagenes/spain-flag.png"
+              alt="Bandera de España"
+            />
+          </button>
         </div>
       </nav>
     </header>
 
     <main>
+      <img src="Imagenes/FotoPerfil.png" alt="Foto de perfil" id="fotoPerfil" />
 
-      <img src="Imagenes/FotoPerfil.png" alt="Foto de perfil" id="fotoPerfil">
-  
       <div id="central">
-        <div id="textoSuperior">
-          ¡Hola! Soy Pablo Vega, un apasionado de la tecnología y la inteligencia
-          artificial. Me encanta aprender y enfrentar nuevos retos, siempre
-          buscando mejorar mis habilidades y explorar nuevas oportunidades en el
-          desarrollo de software. Me motiva la creación de soluciones innovadoras
-          y la optimización de procesos mediante la inteligencia artificial.
-        </div>
+        <div id="textoSuperior"></div>
+        
         <div class="textos" id="estudios">
-          <img src="Imagenes/book-solid.svg" alt="Icono libro">
-          <p id="estudios-p">
-            Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz,
-            donde adquirí conocimientos en sistemas operativos, software de
-            ofimática, administración de sistemas y gestión de redes informáticas.
-            Actualmente, estudio Desarrollo de Aplicaciones Web en la Fundación
-            CEU Andalucía, donde me he especializado en tecnologías como Java,
-            JavaScript, HTML, CSS, PHP y bases de datos.
-          </p>
+          <img src="Imagenes/book-solid.svg" alt="Icono libro" />
+          <p id="estudios-p"></p>
         </div>
-        <!-- barra superior que se rellene de derecha a izquierda al hacer hover -->
+
         <div class="textos" id="skills">
-          <img src="Imagenes/bombilla.svg" alt="Icono bombilla">
+          <img src="Imagenes/bombilla.svg" alt="Icono bombilla" />
           <ul>
-            <li id="skills-li-1">
-              <b>Desarrollo web:</b> HTML
-              <img
-                src="Imagenes/html5_logo.png"
-                class="imagenTexto"
-                alt="HTML5 Logo"
-              >, CSS
-              <img
-                src="Imagenes/css3Logo.png"
-                class="imagenTexto"
-                alt="CSS3 Logo"
-              >, JavaScript
-              <img
-                src="Imagenes/javascriptLogo.png"
-                class="imagenTexto"
-                alt="JavaScript Logo"
-              >, Angular
-              <img
-                src="Imagenes/angularLogo.png"
-                class="imagenTexto"
-                alt="Angular Logo"
-              >.
-            </li>
-                src="Imagenes/html5_logo.png"
-                class="imagenTexto"
-                alt="HTML5 Logo"
-              >, CSS
-              <img
-                src="Imagenes/css3Logo.png"
-                class="imagenTexto"
-                alt="CSS3 Logo"
-              >, JavaScript
-              <img
-                src="Imagenes/javascriptLogo.png"
-                class="imagenTexto"
-                alt="JavaScript Logo"
-              >, Angular
-              <img
-                src="Imagenes/angularLogo.png"
-                class="imagenTexto"
-                alt="Angular Logo"
-              >.
-            </li>
-            
-            <li id="skills-li-2"><b>Bases de datos:</b> OracleSQL, MariaDB, MySQL</li>
-            
-            <li id="skills-li-3">
-              <b>Intereses:</b> Desarrollo front-end e Inteligencia Artificial
-            </li>
-            
-            <li id="skills-li-4">
-              <b>Herramientas:</b> VS Code, GitHub, Linux, phpMyAdmin, Postman
-            </li>
-            
-            <li id="skills-li-5">
-              <b>Inteligencia Artifical:</b> Experimentación con IA open-source
-              localmente, utilizando herramientas como Pinokio, Ollama, ComfyUI,
-              entre otros.
-            </li>
-            
+            <li id="skills-li-1"></li>
+
+            <li id="skills-li-2"></li>
+
+            <li id="skills-li-3"></li>
+
+            <li id="skills-li-4"></li>
+
+            <li id="skills-li-5"></li>
           </ul>
         </div>
       </div>
-  
-      <div class="menu-lateral">
-        <div class="logo-linkedin">
-          <a href="https://www.linkedin.com/in/pablo-vega-flores/" target="_blank"
-            ><img
-              src="Imagenes/logotipo-de-linkedin.png"
-              alt="Enlace a mi LinkedIn"
-          ></a>
-        </div>
-        <div class="logo-mail">
-          <a href="mailto:pablo.veflo.pvf@gmail.com"
-            ><img src="Imagenes/correo.png" alt="Envíame un correo"
-          ></a>
-        </div>
-        <div class="logo-github">
-          <a href="https://github.com/pvega7721" target="_blank"
-            ><img src="Imagenes/github.png" alt="Enlace a mi GitHub"
-          ></a>
-        </div>
-      </div>
     </main>
-    <div id="cookies">
-      <h2 id="cookies-h2">¿Aceptas nuestras Cookies?</h2>
-      <p id="cookies-p">Usamos cookies para mejorar tu experiencia en nuestra web.</p>
-      <div>
-        <button class="boton" id="aceptar">Aceptar</button>
-        <button class="boton"><a href="cookies.html" target="_blank" id="verCookies">Ver página de cookies</a> </button>
-      </div>
-    </div>
     <footer>
       <div id="enlaces">
         <div class="logo-mail">
-          <a href="mailto:pablo.veflo.pvf@gmail.com"
-            ><img src="Imagenes/correo.png" alt="Envíame un correo"
-          ></a>
+          <a
+            id="footer-mail-link"
+            href="mailto:pablo.veflo.pvf@gmail.com"
+            title="Envíame un correo"
+            aria-label="Envíame un correo"
+          >
+            <img src="Imagenes/correo.png" alt="Envíame un correo" />
+          </a>
         </div>
         <div class="logo-linkedin">
-          <a href="https://www.linkedin.com/in/pablo-vega-flores" target="_blank"><img
+          <a
+            id="footer-linkedin-link"
+            href="https://www.linkedin.com/in/pablo-vega-flores"
+            target="_blank"
+            title="Visita mi LinkedIn"
+            aria-label="Visita mi LinkedIn"
+          >
+            <img
               src="Imagenes/logotipo-de-linkedin.png"
               alt="Enlace a mi LinkedIn"
-          ></a>
+            />
+          </a>
         </div>
         <div class="logo-cv">
-          <a href="CV_Pablo_Vega.pdf" download="CV Pablo Vega"
-            ><img src="Imagenes/cv.png" alt="Descarga cv"
-          ></a>
+          <a
+            id="footer-cv-link"
+            href="Archivos/CV-ES.pdf"
+            download="Pablo-Vega-CV-ES.pdf"
+            title="Descarga mi CV"
+            aria-label="Descarga mi CV"
+          >
+            <img src="Imagenes/cv.png" alt="Descarga cv" />
+          </a>
+        </div>
+        <div class="logo-github">
+          <a
+            id="footer-github-link"
+            href="https://github.com/pvega7721"
+            target="_blank"
+            title="Visita mi GitHub"
+            aria-label="Visita mi GitHub"
+          >
+            <img src="Imagenes/github.png" alt="Enlace a mi GitHub" />
+          </a>
         </div>
       </div>
-      <p id="footer-copyright">©2025-Pablo Vega. Todos los derechos reservados</p>
+      <p id="footer-copyright"></p>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
