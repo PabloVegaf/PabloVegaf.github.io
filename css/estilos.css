@@ -183,6 +183,18 @@ footer img {
   display: block;
 }
 
+.language-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#language-text {
+  color: #f5f7fa;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

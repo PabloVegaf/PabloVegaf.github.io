@@ -2,16 +2,19 @@ $(document).ready(function () {
   // Funcionalidad de cambio de idioma
   let idiomaActual = "es";
   const banderaIdioma = document.getElementById("language-flag");
+  const textoIdioma = document.getElementById("language-text");
 
   function actualizarBandera(idioma) {
-    if (!banderaIdioma) return;
+    if (!banderaIdioma || !textoIdioma) return;
 
     if (idioma === "es") {
       banderaIdioma.src = "Imagenes/spain-flag.png";
       banderaIdioma.alt = "Bandera de España";
+      textoIdioma.textContent = "ES";
     } else {
       banderaIdioma.src = "Imagenes/united-states-flag.png";
       banderaIdioma.alt = "United States flag";
+      textoIdioma.textContent = "EN";
     }
   }
   
