@@ -18,7 +18,7 @@ Este proyecto es el portfolio personal de Pablo Vega, diseñado para mostrar sus
 
 ## Estructura del Proyecto
 
-*   `Principal.html`: Página principal y de bienvenida.
+*   `index.html`: Página principal y de bienvenida.
 *   `Proyectos.html`: Página que muestra los proyectos personales.
 *   `css/`: Contiene los archivos de estilo CSS.
     *   `estilos.css`: Archivo único de estilos para todas las páginas del sitio (responsivo y con media queries).
@@ -34,7 +34,7 @@ Este proyecto es el portfolio personal de Pablo Vega, diseñado para mostrar sus
 
 ## Cómo Visualizar el Proyecto
 
-Para ver el portfolio, simplemente abre el archivo `Principal.html` en cualquier navegador web moderno.
+Para ver el portfolio, simplemente abre el archivo `index.html` en cualquier navegador web moderno.
 
 ## Características Principales
 
