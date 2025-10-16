@@ -12,8 +12,8 @@ $(document).ready(function () {
       banderaIdioma.alt = "Bandera de España";
       textoIdioma.textContent = "ES";
     } else {
-      banderaIdioma.src = "Imagenes/united-states-flag.png";
-      banderaIdioma.alt = "United States flag";
+      banderaIdioma.src = "Imagenes/reino-unido.png";
+      banderaIdioma.alt = "United Kingdom flag";
       textoIdioma.textContent = "EN";
     }
   }

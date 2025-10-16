@@ -40,6 +40,10 @@ const traducciones = {
     es: "© 2025 Pablo Vega. Todos los derechos reservados.",
     en: "© 2025 Pablo Vega. All rights reserved."
   },
+  "foot-proyectos": {
+    es: "Proyectos",
+    en: "Projects"
+  },
   "nav-proyectos": {
     es: "Proyectos",
     en: "Projects"
