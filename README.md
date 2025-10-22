@@ -1,6 +1,8 @@
 # Portfolio Personal de Pablo Vega
 
-Este proyecto es el portfolio personal de Pablo Vega, diseñado para mostrar sus habilidades, formación y proyectos a posibles empleadores y colaboradores.
+!Bienvenido a mi portfolio personal!
+
+Soy Pablo Vega, un apasionado de la tecnología, desarrollo web e inteligencia artificial. Este proyecto está diseñado para mostrar mis habilidades, formación y proyectos a posibles empleadores y colaboradores.
 
 ## Características Principales
 
