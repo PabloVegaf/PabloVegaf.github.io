@@ -21,7 +21,7 @@ Soy Pablo Vega, un apasionado de la tecnología, desarrollo web e inteligencia a
 
 *   **Email:** [pablo.veflo.pvf@gmail.com](mailto:pablo.veflo.pvf@gmail.com)
 *   **LinkedIn:** [pablo-vega-flores](https://www.linkedin.com/in/pablo-vega-flores/)
-*   **GitHub:** [pvega7721](https://github.com/pvega7721)
+*   **GitHub:** [PabloVegaf](https://github.com/PabloVegaf)
 
 ## Proyectos Destacados
 

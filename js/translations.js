@@ -16,6 +16,10 @@ const traducciones = {
     es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas.<br><br>Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.<br><br>Adicionalmente, he aprendido de forma autodidacta sobre inteligencia artificial, experimentando con LLMs y otros modelos de código abierto, así como su integración en aplicaciones prácticas.",
     en: "I studied Computer Systems and Networks at IES Mar de Cádiz, where I learned about operating systems, office software, system administration, and computer network management.<br><br>Later, I studied Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases.<br><br>Additionally, I have learned through self-study about artificial intelligence, experimenting with LLMs and other open-source models, as well as their integration into practical applications."
   },
+  "estudios-title": {
+    es: "Formación",
+    en: "Education"
+  },
   "skills-li-1": {
     es: "<b>Desarrollo web:</b> HTML, CSS, JavaScript, Angular.",
     en: "<b>Web Development:</b> HTML, CSS, JavaScript, Angular."
@@ -35,6 +39,10 @@ const traducciones = {
   "skills-li-5": {
     es: "<b>Inteligencia Artificial:</b> Experimentación con IA de código abierto de forma local, creación de servidores MCP, automatizaciones con agentes en n8n.",
     en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
+  },
+  "skills-title": {
+    es: "Habilidades",
+    en: "Skills"
   },
   "footer-copyright": {
     es: "© 2025 Pablo Vega. Todos los derechos reservados.",
