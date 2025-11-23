@@ -13,8 +13,8 @@ const traducciones = {
     en: "Hello! I'm Pablo Vega, passionate about technology and artificial intelligence. I love learning and taking on new challenges, always striving to enhance my skills and explore new opportunities in software development. What drives me is creating innovative solutions and optimizing processes through artificial intelligence."
   },
   "estudios-p": {
-    es: "Estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas.<br><br>Posteriormente estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.<br><br>Adicionalmente, he aprendido de forma autodidacta sobre inteligencia artificial, experimentando con LLMs y otros modelos de código abierto, así como su integración en aplicaciones prácticas.",
-    en: "I studied Computer Systems and Networks at IES Mar de Cádiz, where I learned about operating systems, office software, system administration, and computer network management.<br><br>Later, I studied Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases.<br><br>Additionally, I have learned through self-study about artificial intelligence, experimenting with LLMs and other open-source models, as well as their integration into practical applications."
+    es: "Estudié Desarrollo de Aplicaciones Web en la Fundación CEU Andalucía, donde me he especializado en tecnologías como Java, JavaScript, HTML, CSS, PHP y bases de datos.<br><br>Previamente estudié Sistemas Microinformáticos y Redes en el IES Mar de Cádiz, donde aprendí sobre sistemas operativos, software de ofimática, administración de sistemas y gestión de redes informáticas.<br><br>Adicionalmente, he aprendido de forma autodidacta sobre inteligencia artificial, experimentando con LLMs y otros modelos de código abierto, así como su integración en aplicaciones prácticas.",
+    en: "I studied Web Application Development at Fundación CEU Andalucía, where I have specialized in technologies such as Java, JavaScript, HTML, CSS, PHP, and databases.<br><br>Previously, I studied Computer Systems and Networks at IES Mar de Cádiz, where I learned about operating systems, office software, system administration, and computer network management.<br><br>Additionally, I have learned through self-study about artificial intelligence, experimenting with LLMs and other open-source models, as well as their integration into practical applications."
   },
   "estudios-title": {
     es: "Formación",
@@ -96,7 +96,14 @@ const traducciones = {
     es: "Servidor doméstico Linux montado con un portátil antiguo donde se alojan servicios como Maybe (gestor de economía personal), Home Assistant (domótica), servidor web personal, n8n (automatización de flujos de trabajo), entre otros.",
     en: "Linux home server built with an old laptop, hosting services like Maybe (personal finance manager), Home Assistant (home automation), personal web server, n8n (workflow automation), among others."
   },
-
+  "experiencia-title": {
+    es: "Experiencia Laboral",
+    en: "Work Experience"
+  },
+  "experiencia-p": {
+    es: "Durante mis prácticas del Grado Superior en Desarrollo de Aplicaciones Web, en Bodegas Fundador, participé en el desarrollo de aplicaciones internas utilizando Flutter y Dart. Adicionalmente, colaboré en la planificación, desarrollo e impartición de una formación en inteligencia artificial para los empleados de la empresa.<br><br>En mis prácticas del Grado Medio en Sistemas Microinformáticos y Redes, también en Bodegas Fundador, trabajé en la instalación y reparación de equipos informáticos, servidores y la red de la empresa. También realicé inventarios y utilicé herramientas ofimáticas.",
+    en: "During my internship as part of my Higher Vocational Training in Web Application Development at Bodegas Fundador, I participated in the development of internal applications using Flutter and Dart. Additionally, I collaborated in the planning, development, and delivery of artificial intelligence training for the company's employees.<br><br>In my internship as part of my Intermediate Vocational Training in Computer Systems and Networks also in Bodegas Fundador, I handled the installation and repair of computer equipment, servers, and the company network. I also conducted inventories and worked with office software tools."
+  }
 };
 
 const traduccionesAtributos = {
