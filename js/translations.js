@@ -21,24 +21,24 @@ const traducciones = {
     en: "Education"
   },
   "skills-li-1": {
-    es: "<b>Desarrollo web:</b> HTML, CSS, JavaScript, Angular.",
-    en: "<b>Web Development:</b> HTML, CSS, JavaScript, Angular."
+    es: "<b>Desarrollo web:</b> JavaScript, Angular, Java, Spring Boot, PHP, HTML, CSS, WordPress.",
+    en: "<b>Web Development:</b> JavaScript, Angular, Java, Spring Boot, PHP,  HTML, CSS, WordPress."
   },
   "skills-li-2": {
-    es: "<b>Bases de datos:</b> OracleSQL, MariaDB, MySQL",
-    en: "<b>Databases:</b> OracleSQL, MariaDB, MySQL"
+    es: "<b>Sistemas, Servidores y Home Lab:</b> Administración de Linux, montaje y gestión de home server, despliegue de servicios en local, mantenimiento de hardware y uso de herramientas CLI.",
+    en: "<b>Systems, Servers and Home Lab:</b> Linux administration, home server setup and management, local service deployment, hardware maintenance, and CLI tools."
   },
   "skills-li-3": {
-    es: "<b>Intereses:</b> Desarrollo full-stack e Inteligencia Artificial",
-    en: "<b>Interests:</b> Full-Stack Development and Artificial Intelligence"
+    es: "<b>Bases de datos:</b> OracleSQL, MariaDB, MySQL.",
+    en: "<b>Databases:</b> OracleSQL, MariaDB, MySQL."
   },
   "skills-li-4": {
-    es: "<b>Herramientas:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama",
-    en: "<b>Tools:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama"
+    es: "<b>Inteligencia Artificial y Automatización:</b> Experimentación con IA de código abierto de forma local, creación de servidores MCP, automatizaciones con agentes en n8n.",
+    en: "<b>Artificial Intelligence and Automation:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
   },
   "skills-li-5": {
-    es: "<b>Inteligencia Artificial:</b> Experimentación con IA de código abierto de forma local, creación de servidores MCP, automatizaciones con agentes en n8n.",
-    en: "<b>Artificial Intelligence:</b> Experimenting with open-source AI locally, creating MCP servers, automating agents with n8n."
+    es: "<b>Herramientas:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama, n8n.",
+    en: "<b>Tools:</b> VS Code, GitHub, Linux, Postman, LM Studio, Ollama, n8n."
   },
   "skills-title": {
     es: "Habilidades",
@@ -103,6 +103,22 @@ const traducciones = {
   "experiencia-p": {
     es: "Durante mis prácticas del Grado Superior en Desarrollo de Aplicaciones Web, en Bodegas Fundador, participé en el desarrollo de aplicaciones internas utilizando Flutter y Dart. Adicionalmente, colaboré en la planificación, desarrollo e impartición de una formación en inteligencia artificial para los empleados de la empresa.<br><br>En mis prácticas del Grado Medio en Sistemas Microinformáticos y Redes, también en Bodegas Fundador, trabajé en la instalación y reparación de equipos informáticos, servidores y la red de la empresa. También realicé inventarios y utilicé herramientas ofimáticas.",
     en: "During my internship as part of my Higher Vocational Training in Web Application Development at Bodegas Fundador, I participated in the development of internal applications using Flutter and Dart. Additionally, I collaborated in the planning, development, and delivery of artificial intelligence training for the company's employees.<br><br>In my internship as part of my Intermediate Vocational Training in Computer Systems and Networks also in Bodegas Fundador, I handled the installation and repair of computer equipment, servers, and the company network. I also conducted inventories and worked with office software tools."
+  },
+  "footer-mail-text": {
+    es: "Contactame por mail",
+    en: "Email me"
+  },
+  "footer-linkedin-text": {
+    es: "Visita mi LinkedIn",
+    en: "Visit my LinkedIn"
+  },
+  "footer-cv-text": {
+    es: "Descarga mi CV",
+    en: "Download my CV"
+  },
+  "footer-github-text": {
+    es: "Visita mi GitHub",
+    en: "Visit my GitHub"
   }
 };
 
