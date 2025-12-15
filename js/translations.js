@@ -81,7 +81,7 @@ const traducciones = {
     en: "Steam MCP Server"
   },
   "proyecto-2-desc": {
-    es: "Servidor del Protocolo de Contexto de Modelos (MCP) que permite a los asistentes de IA acceder a información de Steam, incluyendo detalles de juegos, estadísticas de jugadores y datos de la biblioteca personal.",
+    es: "MCP (Model Context Protocol) que permite a los asistentes de IA acceder a información de Steam, incluyendo detalles de juegos, estadísticas de jugadores y datos de la biblioteca personal.",
     en: "Model Context Protocol (MCP) server that allows AI assistants to access Steam information, including game details, player statistics, and personal library data."
   },
   "proyectos-personales-a-2": {
@@ -95,6 +95,18 @@ const traducciones = {
   "proyecto-3-desc": {
     es: "Servidor doméstico Linux montado con un portátil antiguo donde se alojan servicios como Maybe (gestor de economía personal), Home Assistant (domótica), servidor web personal, n8n (automatización de flujos de trabajo), entre otros.",
     en: "Linux home server built with an old laptop, hosting services like Maybe (personal finance manager), Home Assistant (home automation), personal web server, n8n (workflow automation), among others."
+  },
+  "proyecto-4-titulo": {
+    es: "Transcribe-summarize-local",
+    en: "Transcribe-summarize-local"
+  },
+  "proyecto-4-desc": {
+    es: "Similar a Transcribe-summarize, pero funcionando de forma completamente local sin necesidad de conexión a internet ni uso de APIs externas. Utiliza modelos de código abierto como Whisper para la transcripción y se conecta con LM Studio/Ollama para usar LLMs en local para los resúmenes. Ideal para quienes buscan privacidad y autonomía en el procesamiento de audio, de forma completamente gratuita.",
+    en: "Similar to Transcribe-summarize, but fully local without internet connection or external APIs. Uses open-source models like Whisper for transcription and connects with LM Studio/Ollama to use LLMs locally for summaries. Ideal for those seeking privacy and autonomy in audio processing, completely free."
+  },
+  "proyectos-personales-a-4": {
+    es: "Ver repositorio del proyecto",
+    en: "View project repository"
   },
   "experiencia-title": {
     es: "Experiencia Laboral",
