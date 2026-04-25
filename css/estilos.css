@@ -500,3 +500,40 @@ footer img {
 .proyecto a:hover {
   color: #d0e1ff;
 }
+
+/* Estilos para proyecto Home Server con estructura enriquecida */
+.proyecto-intro {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.proyecto-subtitulo {
+  color: #8ab4f8;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(138, 180, 248, 0.3);
+  padding-bottom: 8px;
+}
+
+.proyecto-lista {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.proyecto-lista li {
+  line-height: 1.6;
+}
+
+.proyecto-conclusion {
+  font-style: italic;
+  margin-top: 20px;
+  padding: 16px;
+  background: rgba(138, 180, 248, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid #8ab4f8;
+}

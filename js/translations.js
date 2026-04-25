@@ -1,4 +1,3 @@
-// filepath: /home/pablo/Portfolio-personal/js/translations.js
 const traducciones = {
   "nav-inicio": {
     es: "Inicio",
@@ -92,9 +91,109 @@ const traducciones = {
     es: "Servidor doméstico",
     en: "Home Server"
   },
-  "proyecto-3-desc": {
-    es: "Servidor doméstico Linux montado con un portátil antiguo donde se alojan servicios como Maybe (gestor de economía personal), Home Assistant (domótica), servidor web personal, n8n (automatización de flujos de trabajo), entre otros.",
-    en: "Linux home server built with an old laptop, hosting services like Maybe (personal finance manager), Home Assistant (home automation), personal web server, n8n (workflow automation), among others."
+  "proyecto-3-intro": {
+    es: "Servidor personal basado en una Raspberry Pi 5 donde alojo varios servicios para uso personal, familiar y experimentación. El objetivo es independizarme de servicios de terceros, mantener el control de mis datos y aprender sobre administración de sistemas, redes y despliegue de servicios en un entorno real.",
+    en: "Personal server based on a Raspberry Pi 5 where I host a collection of self-hosted services for personal, family, and experimental use. The goal is to become independent from third-party services, maintain full control over my data, and learn about system administration, networking, and service deployment in a real-world environment."
+  },
+  "proyecto-3-subtitulo-1": {
+    es: "Infraestructura y tecnologías",
+    en: "Infrastructure and Technologies"
+  },
+  "proyecto-3-tech-1": {
+    es: "Linux: Administración de sistemas, gestión de usuarios, permisos, servicios, procesos y monitorización del rendimiento.",
+    en: "Linux: System administration, user management, permissions, services, processes, and performance monitoring."
+  },
+  "proyecto-3-tech-2": {
+    es: "Docker y contenedores: Despliegue y aislamiento de servicios para garantizar estabilidad y facilitar el mantenimiento.",
+    en: "Docker and containers: Deployment and service isolation to ensure stability and ease of maintenance."
+  },
+  "proyecto-3-tech-3": {
+    es: "Redes y acceso remoto seguro: Configuración de VPN con WireGuard para acceder de forma segura a mi red local desde cualquier lugar.",
+    en: "Networking and secure remote access: VPN configuration with WireGuard for securely accessing my local network from anywhere."
+  },
+  "proyecto-3-tech-4": {
+    es: "Gestión de almacenamiento y backups: Organización de volúmenes, copias de seguridad periódicas automáticas y compartición de archivos en red local mediante Samba.",
+    en: "Storage and backup management: Volume organization, periodic automated backups, and local network file sharing via Samba."
+  },
+  "proyecto-3-tech-5": {
+    es: "CasaOS: Dashboard visual que centraliza la gestión, monitorización y despliegue simplificado de todos los servicios activos.",
+    en: "CasaOS: Visual dashboard that centralizes the management, monitoring, and simplified deployment of all active services."
+  },
+  "proyecto-3-subtitulo-2": {
+    es: "Servicios alojados",
+    en: "Hosted Services"
+  },
+  "proyecto-3-cat-1": {
+    es: "Seguridad y acceso remoto",
+    en: "Security and Remote Access"
+  },
+  "proyecto-3-serv-1": {
+    es: "<b>WireGuard:</b> VPN que me permite conectarme de forma segura a mi red local desde cualquier parte del mundo, garantizando que el resto de servicios sean accesibles únicamente de forma privada y cifrada.",
+    en: "<b>WireGuard:</b> VPN that allows me to securely connect to my local network from anywhere in the world, ensuring that the rest of the services are accessible only in a private and encrypted manner."
+  },
+  "proyecto-3-cat-2": {
+    es: "Multimedia y gestión de contenido",
+    en: "Multimedia and Content Management"
+  },
+  "proyecto-3-serv-2": {
+    es: "<b>Navidrome:</b> Servidor de música personal que funciona como alternativa privada a plataformas como Spotify o Apple Music. Sin anuncios, gratuito y accesible desde cualquier dispositivo.",
+    en: "<b>Navidrome:</b> Personal music server that acts as a private alternative to platforms like Spotify or Apple Music. Ad-free, free of charge, and accessible from any device."
+  },
+  "proyecto-3-serv-3": {
+    es: "<b>Immich:</b> Alternativa open source y autoalojada a Google Fotos para el almacenamiento, organización y visualización de mi biblioteca fotográfica personal, manteniendo el control total sobre mis recuerdos.",
+    en: "<b>Immich:</b> Open-source, self-hosted alternative to Google Photos for storing, organizing, and viewing my personal photo library, keeping full control over my memories."
+  },
+  "proyecto-3-serv-4": {
+    es: "<b>Plex:</b> Servidor multimedia personal que me permite organizar, almacenar y acceder a mi colección de películas y series desde cualquier lugar con una interfaz elegante y multiplataforma.",
+    en: "<b>Plex:</b> Personal media server that allows me to organize, store, and access my movie and series collection from anywhere with an elegant, multiplatform interface."
+  },
+  "proyecto-3-cat-3": {
+    es: "Productividad y organización",
+    en: "Productivity and Organization"
+  },
+  "proyecto-3-serv-5": {
+    es: "<b>Memos:</b> Alternativa autoalojada y privada a Notion para la toma de notas, organización de ideas y gestión de conocimiento personal sin depender de servicios en la nube.",
+    en: "<b>Memos:</b> Self-hosted, private alternative to Notion for note-taking, organizing ideas, and managing personal knowledge without relying on cloud services."
+  },
+  "proyecto-3-serv-6": {
+    es: "<b>CasaOS:</b> Panel de control visual que centraliza la gestión de todos los contenedores y servicios del servidor, facilitando el despliegue, la monitorización y el mantenimiento diario.",
+    en: "<b>CasaOS:</b> Visual control panel that centralizes the management of all the server's containers and services, facilitating deployment, monitoring, and daily maintenance."
+  },
+  "proyecto-3-cat-4": {
+    es: "Gestión personal",
+    en: "Personal Management"
+  },
+  "proyecto-3-serv-7": {
+    es: "<b>Maybe:</b> Aplicación autoalojada y privada para la gestión de ingresos y gastos, permitiéndome llevar un control detallado de mis finanzas personales sin compartir datos sensibles con terceros.",
+    en: "<b>Maybe:</b> Self-hosted, private application for managing income and expenses, allowing me to keep detailed track of my personal finances without sharing sensitive data with third parties."
+  },
+  "proyecto-3-cat-5": {
+    es: "Almacenamiento",
+    en: "Storage"
+  },
+  "proyecto-3-serv-8": {
+    es: "<b>Samba (NAS):</b> Servicio de compartición de archivos en red local que convierte el servidor en un centro de almacenamiento accesible desde cualquier dispositivo de la casa, similar a un NAS privado.",
+    en: "<b>Samba (NAS):</b> Local network file sharing service that turns the server into a storage hub accessible from any device at home, similar to a private NAS."
+  },
+  "proyecto-3-cat-6": {
+    es: "Inteligencia Artificial",
+    en: "Artificial Intelligence"
+  },
+  "proyecto-3-serv-9": {
+    es: "<b>OpenWebUI:</b> Plataforma de chatbot autoalojada que me permite interactuar con modelos de lenguaje de diferentes proveedores (OpenAI, Anthropic, etc.) sin límites de uso ni suscripciones cerradas. Si necesito máxima inteligencia, pago por uso de forma flexible y transparente.",
+    en: "<b>OpenWebUI:</b> Self-hosted chatbot platform that allows me to interact with language models from different providers (OpenAI, Anthropic, etc.) without usage limits or closed subscriptions. If I need maximum intelligence, I pay per use in a flexible and transparent way."
+  },
+  "proyecto-3-subtitulo-3": {
+    es: "Aprendizajes clave",
+    en: "Key Learnings"
+  },
+  "proyecto-3-learn-text": {
+    es: "Montar y mantener este servidor desde cero ha sido una de las experiencias de aprendizaje más completas de mi trayectoria. He desarrollado competencias sólidas en administración de sistemas Linux, desde la gestión de usuarios y permisos hasta la monitorización de servicios y la resolución de problemas en tiempo real. El uso de Docker me ha enseñado a aislar servicios, gestionar dependencias y planificar despliegues con la mentalidad de un entorno de producción real.<br><br>Más allá de lo técnico, este proyecto me ha permitido madurar en autonomía y pensamiento crítico. He aprendido a evaluar el coste, la complejidad y el mantenimiento a largo plazo de cada solución antes de implementarla, leyendo documentación oficial, consultando comunidades y utilizando la inteligencia artificial como herramienta de apoyo para resolver problemas complejos. La seguridad ha sido una prioridad desde el primer día: el acceso remoto exclusivo mediante VPN, el aislamiento de servicios en contenedores y el control estricto de la exposición a internet son decisiones conscientes que reflejan una mentalidad orientada a la protección de datos y la privacidad.",
+    en: "Building and maintaining this server from scratch has been one of the most comprehensive learning experiences of my career. I have developed solid skills in Linux system administration, from user and permission management to service monitoring and real-time troubleshooting. Using Docker has taught me to isolate services, manage dependencies, and plan deployments with the mindset of a real production environment.<br><br>Beyond the technical aspects, this project has helped me mature in autonomy and critical thinking. I have learned to evaluate the cost, complexity, and long-term maintenance of each solution before implementing it, reading official documentation, consulting communities, and using artificial intelligence as a support tool to solve complex problems. Security has been a priority from day one: exclusive remote access via VPN, service isolation in containers, and strict control of internet exposure are conscious decisions that reflect a mindset oriented toward data protection and privacy."
+  },
+  "proyecto-3-conclusion": {
+    es: "Este servidor representa mucho más que una colección de servicios: es un entorno de experimentación continua donde puedo probar tecnologías nuevas, optimizar procesos y mantener el control total sobre mi información digital.",
+    en: "This server represents much more than a collection of services: it is a continuous experimentation environment where I can try new technologies, optimize processes, and maintain total control over my digital information."
   },
   "proyecto-4-titulo": {
     es: "Transcribe-summarize-local",
