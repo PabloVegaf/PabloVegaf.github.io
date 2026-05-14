@@ -1,148 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyectos - Pablo Vega Flores</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-  </head>
-  <body>
-    <header>
-      <nav id="barra-navegacion">
-        <a href="index.html" id="nav-inicio"></a>
-        <a href="Proyectos.html" id="nav-proyectos"></a>
-        <div class="language-switcher-container">
-          <button
-            type="button"
-            id="language-toggle"
-            class="language-toggle-button"
-            aria-labelledby="nav-lang-label"
-          >
-            <span id="nav-lang-label" class="visually-hidden"></span>
-            <div class="language-display">
-              <img
-                id="language-flag"
-                src="Imagenes/spain-flag.png"
-                alt="Bandera de España"
-              />
-              <span id="language-text">ES</span>
-            </div>
-          </button>
-        </div>
-      </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Proyectos - Pablo Vega Flores</title>
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <header>
+            <nav id="barra-navegacion">
+                <a href="index.html" id="nav-inicio"></a>
+                <a href="Proyectos.html" id="nav-proyectos"></a>
+                <div class="language-switcher-container">
+                    <button
+                        type="button"
+                        id="language-toggle"
+                        class="language-toggle-button"
+                        aria-labelledby="nav-lang-label"
+                    >
+                        <span
+                            id="nav-lang-label"
+                            class="visually-hidden"
+                        ></span>
+                        <div class="language-display">
+                            <img
+                                id="language-flag"
+                                src="Imagenes/spain-flag.png"
+                                alt="Bandera de España"
+                            />
+                            <span id="language-text">ES</span>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+        </header>
 
-    <main>
-      <h1 id="proyectos-titulo"></h1>
-      
-      <div class="proyecto">
-        <h2 id="proyecto-1-titulo"></h2>
-        <p id="proyecto-1-desc"></p>
-        <img
-          class="imagen-proyecto"
-          src="Imagenes/Transcribe-summarize-screenshot.png"
-          alt="Transcribe-summarize"
-        />
-        <div class="enlaces">
-          <a
-            id="proyectos-personales-a-1"
-            href="https://github.com/PabloVegaf/Transcribe-summarize.git"
-            target="_blank"
-          ></a>
-          <a
-            id="proyectos-personales-a-1-web"
-            href="https://transcribe-summarize.onrender.com/"
-            target="_blank"
-          ></a>
-        </div>
-      </div>
-        
-      <div class="proyecto">
-          <h2 id="proyecto-4-titulo"></h2>
-          <p id="proyecto-4-desc"></p>
-          <img
-            class="imagen-proyecto"
-            src="Imagenes/Transcribe-summarize-local-screenshot.png"
-            alt="Transcribe-summarize-local"
-          />
-          <div class="enlaces">
-            <a 
-            id="proyectos-personales-a-4" 
-            href="https://github.com/PabloVegaf/Transcribe-summarize-local" 
-            target="_blank"
-            ></a>
-          </div>
-        </div>
-      <!-- 
-        <div class="proyecto">
-          <h2 id="proyecto-3-titulo"></h2>
-          <p id="proyecto-3-desc"></p>
-          <img
-          class="imagen-proyecto"
-          src="https://via.placeholder.com/400x200"
-          alt="Imagen del proyecto 3"
-          />
-        </div>
-      -->
-    </main>
-    <footer>
-      <div id="enlaces">
-        <a
-          class="social-button"
-          id="footer-mail-link"
-          href="mailto:pablo.veflo.pvf@gmail.com"
-          title="Envíame un correo"
-          aria-label="Envíame un correo"
-        >
-          <img src="Imagenes/correo.png" alt="Envíame un correo" class="social-icon" />
-          <span class="social-text" id="footer-mail-text"></span>
-        </a>
-        <a
-          class="social-button"
-          id="footer-linkedin-link"
-          href="https://www.linkedin.com/in/pablo-vega-flores"
-          target="_blank"
-          title="Visita mi LinkedIn"
-          aria-label="Visita mi LinkedIn"
-        >
-          <img
-            src="Imagenes/logotipo-de-linkedin.png"
-            alt="Enlace a mi LinkedIn"
-            class="social-icon"
-          />
-          <span class="social-text" id="footer-linkedin-text"></span>
-        </a>
-        <a
-          class="social-button"
-          id="footer-cv-link"
-          href="Archivos/CV-ES.pdf"
-          download="Pablo-Vega-CV-ES.pdf"
-          title="Descarga mi CV"
-          aria-label="Descarga mi CV"
-        >
-          <img src="Imagenes/cv.png" alt="Descarga cv" class="social-icon" />
-          <span class="social-text" id="footer-cv-text"></span>
-        </a>
-        <a
-          class="social-button"
-          id="footer-github-link"
-          href="https://github.com/PabloVegaf"
-          target="_blank"
-          title="Visita mi GitHub"
-          aria-label="Visita mi GitHub"
-        >
-          <img src="Imagenes/github.png" alt="Enlace a mi GitHub" class="social-icon" />
-          <span class="social-text" id="footer-github-text"></span>
-        </a>
-      </div>
-      <p id="footer-copyright"></p>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/translations.js"></script>
-    <script src="js/accion.js"></script>
-  </body>
+        <main>
+            <h1 id="proyectos-titulo"></h1>
+
+            <div class="proyecto">
+                <h2 id="transcribe-summarize-titulo"></h2>
+                <p id="transcribe-summarize-desc"></p>
+                <img
+                    class="imagen-proyecto"
+                    src="Imagenes/Transcribe-summarize-screenshot.png"
+                    alt="Transcribe-summarize"
+                />
+                <div class="enlaces">
+                    <a
+                        id="transcribe-summarize-enlace-github"
+                        href="https://github.com/PabloVegaf/Transcribe-summarize.git"
+                        target="_blank"
+                    ></a>
+                    <a
+                        id="transcribe-summarize-enlace-web"
+                        href="https://transcribe-summarize.onrender.com/"
+                        target="_blank"
+                    ></a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <h2 id="servidor-domestico-titulo"></h2>
+                <p id="servidor-domestico-intro"></p>
+                <h3 id="servidor-domestico-subtitulo-1"></h3>
+                <ul>
+                    <li id="servidor-domestico-tech-1"></li>
+                    <li id="servidor-domestico-tech-2"></li>
+                    <li id="servidor-domestico-tech-3"></li>
+                    <li id="servidor-domestico-tech-4"></li>
+                    <li id="servidor-domestico-tech-5"></li>
+                </ul>
+                <h3 id="servidor-domestico-subtitulo-2"></h3>
+                <h4 id="servidor-domestico-cat-1"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-1"></li>
+                </ul>
+                <h4 id="servidor-domestico-cat-2"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-2"></li>
+                    <li id="servidor-domestico-serv-3"></li>
+                    <li id="servidor-domestico-serv-4"></li>
+                </ul>
+                <h4 id="servidor-domestico-cat-3"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-5"></li>
+                    <li id="servidor-domestico-serv-6"></li>
+                </ul>
+                <h4 id="servidor-domestico-cat-4"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-7"></li>
+                </ul>
+                <h4 id="servidor-domestico-cat-5"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-8"></li>
+                </ul>
+                <h4 id="servidor-domestico-cat-6"></h4>
+                <ul>
+                    <li id="servidor-domestico-serv-9"></li>
+                </ul>
+                <h3 id="servidor-domestico-subtitulo-3"></h3>
+                <p id="servidor-domestico-learn-text"></p>
+                <p id="servidor-domestico-conclusion"></p>
+            </div>
+
+            <div class="proyecto">
+                <h2 id="transcribe-summarize-local-titulo"></h2>
+                <p id="transcribe-summarize-local-desc"></p>
+                <img
+                    class="imagen-proyecto"
+                    src="Imagenes/Transcribe-summarize-local-screenshot.png"
+                    alt="Transcribe-summarize-local"
+                />
+                <div class="enlaces">
+                    <a
+                        id="transcribe-summarize-local-enlace-github"
+                        href="https://github.com/PabloVegaf/Transcribe-summarize-local"
+                        target="_blank"
+                    ></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="enlaces">
+                <a
+                    class="social-button"
+                    id="footer-mail-link"
+                    href="mailto:pablo.veflo.pvf@gmail.com"
+                    title="Envíame un correo"
+                    aria-label="Envíame un correo"
+                >
+                    <img
+                        src="Imagenes/correo.png"
+                        alt="Envíame un correo"
+                        class="social-icon"
+                    />
+                    <span class="social-text" id="footer-mail-text"></span>
+                </a>
+                <a
+                    class="social-button"
+                    id="footer-linkedin-link"
+                    href="https://www.linkedin.com/in/pablo-vega-flores"
+                    target="_blank"
+                    title="Visita mi LinkedIn"
+                    aria-label="Visita mi LinkedIn"
+                >
+                    <img
+                        src="Imagenes/logotipo-de-linkedin.png"
+                        alt="Enlace a mi LinkedIn"
+                        class="social-icon"
+                    />
+                    <span class="social-text" id="footer-linkedin-text"></span>
+                </a>
+                <a
+                    class="social-button"
+                    id="footer-cv-link"
+                    href="Archivos/CV-ES.pdf"
+                    download="Pablo-Vega-CV-ES.pdf"
+                    title="Descarga mi CV"
+                    aria-label="Descarga mi CV"
+                >
+                    <img
+                        src="Imagenes/cv.png"
+                        alt="Descarga cv"
+                        class="social-icon"
+                    />
+                    <span class="social-text" id="footer-cv-text"></span>
+                </a>
+                <a
+                    class="social-button"
+                    id="footer-github-link"
+                    href="https://github.com/PabloVegaf"
+                    target="_blank"
+                    title="Visita mi GitHub"
+                    aria-label="Visita mi GitHub"
+                >
+                    <img
+                        src="Imagenes/github.png"
+                        alt="Enlace a mi GitHub"
+                        class="social-icon"
+                    />
+                    <span class="social-text" id="footer-github-text"></span>
+                </a>
+            </div>
+            <p id="footer-copyright"></p>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/translations.js"></script>
+        <script src="js/accion.js"></script>
+    </body>
 </html>
